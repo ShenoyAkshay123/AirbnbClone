@@ -16,13 +16,17 @@ import {
 import HomeScreen from './src/screens/Home';
 import Posts from './src/components/Posts';
 
+import feed from './assets/data/feed';
+
+const post = feed[0];
+
 
 
 const App: () => Node = () => {
 
   return (
     <SafeAreaView>
-      <Posts>
+      <Posts post = {post} >
 
       </Posts>
 
