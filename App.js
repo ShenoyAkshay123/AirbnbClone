@@ -9,12 +9,14 @@
 import React from 'react';
 import {Node} from 'react';
 import {
-  SafeAreaView,
+  SafeAreaView, StatusBar,
 
 } from 'react-native';
 
 import HomeScreen from './src/screens/Home';
 import Posts from './src/components/Posts';
+import SearchResult from './src/screens/SearchResult';
+
 
 import feed from './assets/data/feed';
 
@@ -25,10 +27,11 @@ const post = feed[0];
 const App: () => Node = () => {
 
   return (
-    <SafeAreaView>
-      <Posts post = {post} >
+    <SafeAreaView style = {{backgroundColor: 'white'}}>
 
-      </Posts>
+      <SearchResult>
+
+      </SearchResult>
 
     </SafeAreaView>
   );
