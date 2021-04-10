@@ -14,15 +14,17 @@ import {
 } from 'react-native';
 
 import HomeScreen from './src/screens/Home';
+import Posts from './src/components/Posts';
+
 
 
 const App: () => Node = () => {
 
   return (
     <SafeAreaView>
-      <HomeScreen>
+      <Posts>
 
-      </HomeScreen>
+      </Posts>
 
     </SafeAreaView>
   );
