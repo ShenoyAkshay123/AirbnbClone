@@ -16,6 +16,8 @@ import {
 import HomeScreen from './src/screens/Home';
 import Posts from './src/components/Posts';
 import SearchResult from './src/screens/SearchResult';
+import DestinationSearch from './src/screens/DestinationSearch';
+
 
 
 import feed from './assets/data/feed';
@@ -29,9 +31,9 @@ const App: () => Node = () => {
   return (
     <SafeAreaView style = {{backgroundColor: 'white'}}>
 
-      <SearchResult>
+      <DestinationSearch>
 
-      </SearchResult>
+      </DestinationSearch>
 
     </SafeAreaView>
   );
